@@ -73,7 +73,6 @@ const calculate = () => {
 };
 
 //menjalankan klik AC utk menghapus
-
 const clearAll = () => {
   prevNumber = "";
   calculationOperator = "";
@@ -88,7 +87,6 @@ clearBtn.addEventListener("click", () => {
 });
 
 //mengkalkulasi angka desimal
-
 inputDecimal = (dot) => {
   if (currentNumber.includes(".")) {
     return;
